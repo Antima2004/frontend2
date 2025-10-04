@@ -1,8 +1,8 @@
 import { Card, CardContent } from "@/components/ui/Card";
-import serviceIcon1 from "@/assets/Group 90.png";
-import serviceIcon2 from "@/assets/g1.png";
-import serviceIcon3 from "@/assets/Group 92.png";
-import serviceIcon4 from "@/assets/g1 (1).png";
+import serviceIcon1 from "../assets/Group 90.png";
+import serviceIcon2 from "../assets/g1.png";
+import serviceIcon3 from "../assets/Group 92.png";
+import serviceIcon4 from "../assets/g1 (1).png";
 
 
 

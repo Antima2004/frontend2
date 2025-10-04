@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/Button";
 import { Menu } from "lucide-react";
 import { useState } from "react";
-import icon from "@/assets/Group.svg";
+import icon from "../assets/Group.svg";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
