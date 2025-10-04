@@ -1,0 +1,17 @@
+// For importing SVG as React component
+declare module '*.svg' {
+  import * as React from 'react';
+  export const ReactComponent: React.FunctionComponent<React.SVGProps<SVGSVGElement>>;
+  const src: string;
+  export default src;
+}
+
+// For PNG/JPG/etc (optional)
+declare module '*.png' {
+  const value: string;
+  export default value;
+}
+declare module '*.jpg' {
+  const value: string;
+  export default value;
+}
